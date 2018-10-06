@@ -133,6 +133,9 @@ ul, menu, dir {
 	.container .jumbotron {
 		height:1000px;
 	}
+	.container{
+	  width : 100%;
+	}
 }
 
 /********** Small devices only **********/
@@ -142,6 +145,10 @@ ul, menu, dir {
 	}
 	.container .jumbotron {
 		height:1000px;
+	}
+		
+	.container{
+	  width : 100%;
 	}
 }
 
