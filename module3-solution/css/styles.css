@@ -5,10 +5,10 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
-ul, menu, dir {    
+/*ul, menu, dir {    
     padding-inline-start: 0px;
 }
-
+*/
 /** HEADER **/
 #header-nav {
   background-color: #fff;
@@ -157,7 +157,7 @@ ul, menu, dir {
 	/* Header 	
 	*/
   hr{
-        margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
   }
   .navbar-brand {
@@ -184,4 +184,9 @@ ul, menu, dir {
     font-size: 1em;
     margin-right: 5px;
   }
+
+  .container .jumbotron {
+		width:85%;
+		margin:auto;
+	}
 }
